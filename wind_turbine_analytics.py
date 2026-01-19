@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 # reading the dataset and creating dataframe 
 data = pd.read_csv("C:/Users/DINAKAR/Downloads/Vayumithra_Assessment/Datasheet.csv" )
 
-# preview the top 5 entities from the dataframe to understand the data
-data.head()
+# preview the top 3 entities from the dataframe to understand the data
+data.head(3)
 
 # conversion of timestamp from raw string to appropriate format and sorting for future calculation and plotting,
 data["Timestamp"] = pd.to_datetime(data["Timestamp"])
